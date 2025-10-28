@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="background"></div>
+
+  <div class="container">
+    <div class="header">
+      <h1 class="app-title">Weather App</h1>
+      <div class="btn-group">
+        <button id="modeToggle" class="toggle-btn">🌙</button>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="locationInput" placeholder="Enter location...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="weatherInfo" class="weather-info hidden">
+      <h2 id="cityName"></h2>
+      <img id="icon" src="" alt="Weather Icon">
+      <p id="temp"></p>
+      <p id="condition"></p>
+      <p id="feelsLike"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+    </div>
+
+    <footer>Created by Aascharya Paudel</footer>
+  </div>
+
+  <!-- Avatar floating at top-right -->
+  <div id="avatar">
+    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="avatar">
+    <div id="avatarText">Hi there 👋</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
