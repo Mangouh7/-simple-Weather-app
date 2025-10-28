@@ -1,2 +1,2 @@
 # -simple-Weather-app
-simple weather app create by using Api
+simple weather app created by using Api
