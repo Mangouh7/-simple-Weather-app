@@ -52,18 +52,19 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
 
 ## Setup Instructions
 
-1. **Clone the Repository**
-   ```bash
+1. Clone the Repository
+
    git clone https://github.com/Mangouh7/-simple-Weather-app.git
 
-   ### 2. 🔑 Add Your WeatherAPI Key
-To fetch live weather data, you'll need a personal API key from [WeatherAPI.com](https://www.weatherapi.com/).
+2. 🔑 Add Your WeatherAPI Key
+
+To fetch live weather data, you'll need a personal API key from [WeatherAPI.com](https://weatherapi.com).
 
 - Open the `script.js` file.
 - Replace the placeholder key with your actual API key:
 
-```JavaScript
 const apiKey = "YOUR_API_KEY"; // Replace with your key from WeatherAPI
+
 
 
 
