@@ -64,8 +64,7 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
   <a href="https://www.weatherapi.com/" target="_blank">API Key</a>
 
 4. Run the Project
-```bash
-Open index.html in your browser 
+**Open index.html in your browser**
 
    
 
