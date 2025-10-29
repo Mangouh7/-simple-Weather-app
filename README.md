@@ -32,7 +32,7 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
 
 - Real-time weather data for any location  
 - Dynamic background and UI based on weather  
-- Avatar reacts and comments according to temperature  
+- Avatar reacts and comments according to the temperature  
 - Dark and light mode toggle  
 - Fully responsive design  
 - Lightweight and easy to use  
@@ -62,6 +62,10 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
  ```
 3. Add your API key
   <a href="https://www.weatherapi.com/" target="_blank">API Key</a>
+
+4. Run the Project
+```bash
+Open index.html in your browser 
 
    
 
