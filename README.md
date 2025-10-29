@@ -62,7 +62,7 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
  ```
 3. Add your API key
    
-   [API KEY] (https://www.weatherapi.com/)
+   [API Key] (https://www.weatherapi.com/)
    
 
     
