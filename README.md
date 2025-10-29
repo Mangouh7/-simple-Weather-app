@@ -55,6 +55,11 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Mangouh7/-simple-Weather-app.git
+
+   2 Open the Project
+   cd -simple-Weather-app
+
+
    
 
 
