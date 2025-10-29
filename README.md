@@ -62,9 +62,8 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
  ```
 3. Add your API key
    ```bash
-   open script.js
-   Replace the existing key with your own from https://www.weatherapi.com/
-
+   [API KEY] (https://www.weatherapi.com/)
+   
 
     
 
