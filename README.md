@@ -61,7 +61,7 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
  cd -simple-Weather-app
  ```
 3. Add your API key
-    [API key] (https://www.weatherapi.com/)
+  <a href="https://www.weatherapi.com/" target="_blank">API Key</a>
 
    
 
