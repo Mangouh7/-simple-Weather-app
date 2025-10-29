@@ -61,8 +61,9 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
  cd -simple-Weather-app
  ```
 3. Add your API key
-Open script.js
-Replace the existing key with your own from WeatherAPI.com
+   ```bash
+   open script.js
+   Replace the existing key with your own from https://www.weatherapi.com/
 
 
     
