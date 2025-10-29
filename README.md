@@ -66,6 +66,8 @@ It includes a **dark mode toggle**, a **dynamic avatar** that reacts to the weat
 4. Run the Project
 **Open index.html in your browser**
 
+## LIVE DEMO 
+<a href="https://mangouh7.github.io/-simple-Weather-app/" target="_blank">V SIMPLE WEATHER APP</a>
    
 
     
