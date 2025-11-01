@@ -55,7 +55,7 @@ It includes a **dark mode toggle**, **dynamic avatar reactions**, and a **clean,
  ```bash
  cd -simple-Weather-app
  ```
-3. Add your API key
+3.**Add your API key**
   <a href="https://www.weatherapi.com/" target="_blank">API Key</a>
 
 4. Run the Project
