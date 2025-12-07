@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather App</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div id="background"></div>
 
@@ -18,18 +20,92 @@
     </div>
 
     <div class="search-box">
-      <input type="text" id="locationInput" placeholder="Enter location...">
-      <button id="searchBtn">Search</button>
+      <input type="text" id="locationInput" placeholder="Enter city name...">
+      <button id="searchBtn">
+        <span id="btnText">Search</span>
+        <div id="loader" class="loader hidden"></div>
+      </button>
+      <button id="geoBtn" title="Use my location">📍</button>
     </div>
 
+    <!-- Error Message Display -->
+    <div id="errorMessage" class="error-message hidden"></div>
+
     <div id="weatherInfo" class="weather-info hidden">
-      <h2 id="cityName"></h2>
-      <img id="icon" src="" alt="Weather Icon">
-      <p id="temp"></p>
-      <p id="condition"></p>
-      <p id="feelsLike"></p>
-      <p id="humidity"></p>
-      <p id="wind"></p>
+      <div class="main-weather">
+        <h2 id="cityName"></h2>
+        <div class="weather-icon-container">
+          <img id="icon" src="" alt="Weather Icon">
+        </div>
+        <h1 id="temp"></h1>
+        <p id="condition"></p>
+      </div>
+
+      <div class="details-grid">
+        <div class="detail-card">
+          <span class="detail-label">Feels Like</span>
+          <span id="feelsLike" class="detail-value">--</span>
+        </div>
+        <div class="detail-card">
+          <span class="detail-label">Humidity</span>
+          <span id="humidity" class="detail-value">--</span>
+        </div>
+        <div class="detail-card">
+          <span class="detail-label">Wind</span>
+          <span id="wind" class="detail-value">--</span>
+        </div>
+        <div class="detail-card">
+          <span class="detail-label">UV Index</span>
+          <span id="uvIndex" class="detail-value">--</span>
+        </div>
+      </div>
+
+      <!-- Hourly Forecast Chart -->
+      <div class="forecast-section">
+        <h3>Temperature Trend</h3>
+        <div class="chart-container">
+          <canvas id="tempChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Hourly Forecast List -->
+      <div class="forecast-section">
+        <h3>Hourly Details</h3>
+        <div id="hourlyForecast" class="hourly-container">
+          <!-- Hourly items injected here -->
+        </div>
+      </div>
+
+      <!-- Daily Forecast -->
+      <div class="forecast-section">
+        <h3>3-Day Forecast</h3>
+        <div id="dailyForecast" class="daily-container">
+          <!-- Daily items injected here -->
+        </div>
+      </div>
+
+      <!-- Astro Section -->
+      <div class="forecast-section">
+        <h3>Sun & Moon</h3>
+        <div class="details-grid">
+          <div class="detail-card">
+            <span class="detail-label">Sunrise</span>
+            <span id="sunrise" class="detail-value">--</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-label">Sunset</span>
+            <span id="sunset" class="detail-value">--</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-label">Moon Phase</span>
+            <span id="moonPhase" class="detail-value">--</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-label">Air Quality</span>
+            <span id="airQuality" class="detail-value">--</span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer>Created by Aascharya Paudel</footer>
@@ -41,6 +117,8 @@
     <div id="avatarText">Hi there 👋</div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
